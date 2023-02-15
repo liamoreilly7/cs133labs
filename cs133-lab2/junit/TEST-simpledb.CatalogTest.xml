@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="2" hostname="Liams-MacBook-Air-3.local" name="simpledb.CatalogTest" skipped="0" tests="7" time="0.317" timestamp="2023-02-03T07:41:52">
+  <properties>
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.10.13/libexec/lib" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="java.specification.version" value="19" />
+    <property name="ant.project.name" value="cs133-lab1" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues" />
+    <property name="env._CE_CONDA" value="" />
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner simpledb.CatalogTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/liamoreilly/Desktop/databases/cs133-lab1/junit/TEST-simpledb.CatalogTest.xml crashfile=/Users/liamoreilly/Desktop/databases/cs133-lab1/junitvmwatcher18121913037619455524.properties propsfile=/Users/liamoreilly/Desktop/databases/cs133-lab1/junit8056452725523751351.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2023-01-17" />
+    <property name="env.JAVA_HOME" value="/usr/local/opt/openjdk" />
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home" />
+    <property name="env.CONDA_PREFIX" value="/Users/liamoreilly/opt/anaconda3" />
+    <property name="basedir" value="/Users/liamoreilly/Desktop/databases/cs133-lab1" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="19.0.2" />
+    <property name="env.TERM_PROGRAM_VERSION" value="443" />
+    <property name="user.name" value="liamoreilly" />
+    <property name="env.PATH" value="/Users/liamoreilly/opt/anaconda3/bin:/Users/liamoreilly/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin" />
+    <property name="ant.file.cs133-lab1" value="/Users/liamoreilly/Desktop/databases/cs133-lab1/build.xml" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="env.LOGNAME" value="liamoreilly" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+    <property name="env.__CFBundleIdentifier" value="com.apple.Terminal" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.vendor.version" value="Homebrew" />
+    <property name="env.TERM_SESSION_ID" value="6AA0924B-7669-4DB9-915B-36BA9717D8AB" />
+    <property name="env.SHLVL" value="1" />
+    <property name="java.io.tmpdir" value="/var/folders/rg/lcl1r9052p3bcpbbzdr9yzpr0000gn/T/" />
+    <property name="java.version" value="19.0.2" />
+    <property name="env.CONDA_DEFAULT_ENV" value="base" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.kdVhehieWM/Listeners" />
+    <property name="env.CONDA_PYTHON_EXE" value="/Users/liamoreilly/opt/anaconda3/bin/python" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.10.13/libexec" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="native.encoding" value="UTF-8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.13 compiled on January 4 2023" />
+    <property name="java.library.path" value="/Users/liamoreilly/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="env.TMPDIR" value="/var/folders/rg/lcl1r9052p3bcpbbzdr9yzpr0000gn/T/" />
+    <property name="java.vendor" value="Homebrew" />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.PWD" value="/Users/liamoreilly/desktop/databases/cs133-lab1" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.class.path" value="/Users/liamoreilly/Desktop/databases/cs133-lab1/bin:/Users/liamoreilly/Desktop/databases/cs133-lab1/lib/ant-contrib-1.0b3.jar:/Users/liamoreilly/Desktop/databases/cs133-lab1/lib/junit-4.5.jar:/usr/local/Cellar/ant/1.10.13/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.10.13/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.10.13/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.10.13/libexec/lib/ant-junit4.jar" />
+    <property name="env.HOME" value="/Users/liamoreilly" />
+    <property name="source" value="17" />
+    <property name="java.vm.vendor" value="Homebrew" />
+    <property name="env.CONDA_SHLVL" value="1" />
+    <property name="java.vm.specification.version" value="19" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/liamoreilly" />
+    <property name="user.language" value="en" />
+    <property name="env.CONDA_EXE" value="/Users/liamoreilly/opt/anaconda3/bin/conda" />
+    <property name="ant.file.type.cs133-lab1" value="file" />
+    <property name="ant.java.version" value="19" />
+    <property name="apple.awt.application.name" value="JUnitTestRunner" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.security.manager" value="allow" />
+    <property name="ant.file" value="/Users/liamoreilly/Desktop/databases/cs133-lab1/build.xml" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="12.0.1" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="simpledb" />
+    <property name="env.CONDA_PROMPT_MODIFIER" value="(base) " />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="env.SHELL" value="/bin/zsh" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.10.13/libexec/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues" />
+    <property name="user.dir" value="/Users/liamoreilly/Desktop/databases/cs133-lab1" />
+    <property name="os.arch" value="x86_64" />
+    <property name="target" value="17" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="19.0.2" />
+    <property name="env._CE_M" value="" />
+    <property name="java.class.version" value="63.0" />
+    <property name="env.USER" value="liamoreilly" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="simpledb.CatalogTest" name="clear" time="0.023" />
+  <testcase classname="simpledb.CatalogTest" name="getTableId" time="0.0" />
+  <testcase classname="simpledb.CatalogTest" name="getDatabaseFile" time="0.0" />
+  <testcase classname="simpledb.CatalogTest" name="handleDuplicateNames" time="0.006">
+    <error message="expected:&lt;1617375095&gt; but was:&lt;-1353758679&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1617375095&gt; but was:&lt;-1353758679&gt;
+	at simpledb.CatalogTest.handleDuplicateNames(CatalogTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</error>
+  </testcase>
+  <testcase classname="simpledb.CatalogTest" name="getTableName" time="0.001" />
+  <testcase classname="simpledb.CatalogTest" name="handleDuplicateIds" time="0.004">
+    <error message="expected:&lt;1[b9f0f6b-e54b-48bd-92e4-a37396340be5]&gt; but was:&lt;1[cdaf218-f9b8-4337-b75b-e1713d38af46]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;1[b9f0f6b-e54b-48bd-92e4-a37396340be5]&gt; but was:&lt;1[cdaf218-f9b8-4337-b75b-e1713d38af46]&gt;
+	at simpledb.CatalogTest.handleDuplicateIds(CatalogTest.java:100)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</error>
+  </testcase>
+  <testcase classname="simpledb.CatalogTest" name="getTupleDesc" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
